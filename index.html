@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32 Web Flasher</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: #f8fafc;
+        }
+
+        .hero {
+            padding: 100px 0;
+        }
+
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .hero-subtitle {
+            color: #6c757d;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .feature-card {
+            height: 100%;
+            border: none;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,.06);
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero text-center">
+    <div class="container">
+
+        <span class="badge bg-primary mb-3">
+            ESP32 Firmware Manager
+        </span>
+
+        <h1 class="hero-title">
+            Flash ESP32 Firmware Directly From Your Browser
+        </h1>
+
+        <p class="hero-subtitle mt-3">
+            Store firmware versions online, manage releases,
+            and flash ESP32 devices without installing additional software.
+            Works directly in modern Chromium-based browsers.
+        </p>
+
+        <div class="mt-5">
+            <a href="#" class="btn btn-primary btn-lg me-2">
+                🚀 Flash Device
+            </a>
+
+            <a href="#" class="btn btn-outline-secondary btn-lg">
+                📦 Browse Firmware
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card feature-card">
+                    <div class="card-body text-center p-4">
+                        <div class="feature-icon mb-3">
+                            📁
+                        </div>
+
+                        <h5>Firmware Storage</h5>
+
+                        <p class="text-muted">
+                            Store and organize firmware files with version control and release notes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feature-card">
+                    <div class="card-body text-center p-4">
+                        <div class="feature-icon mb-3">
+                            ⚡
+                        </div>
+
+                        <h5>One-Click Flashing</h5>
+
+                        <p class="text-muted">
+                            Flash ESP32 devices directly from the browser using Web Serial.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feature-card">
+                    <div class="card-body text-center p-4">
+                        <div class="feature-icon mb-3">
+                            🔄
+                        </div>
+
+                        <h5>OTA Ready</h5>
+
+                        <p class="text-muted">
+                            Manage firmware updates and deployments for multiple devices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="py-5 bg-white">
+    <div class="container text-center">
+
+        <h2 class="mb-4">
+            Supported Devices
+        </h2>
+
+        <p class="text-muted">
+            ESP32 • ESP32-S2 • ESP32-S3 • ESP32-C3 • ESP32-C6
+        </p>
+
+    </div>
+</section>
+
+<footer class="py-4 border-top bg-light">
+    <div class="container text-center text-muted">
+        © 2026 ESP32 Web Flasher
+    </div>
+</footer>
+
+</body>
+</html>
